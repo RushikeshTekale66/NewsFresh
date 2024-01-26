@@ -64,7 +64,7 @@ const handlePreviousClick = async()=>{
     return (
       <>
         <div className='container my-3'>
-          <h1 className='text-center' style={{margin:'30px 0px', marginTop:'80px'}}>This is your todays top {capitalizeFirst(props.category)} News Adinath</h1>
+          <h1 className='text-center' style={{margin:'30px 0px', marginTop:'80px'}}>This is your todays top {capitalizeFirst(props.category)} News</h1>
           {loading && <Spinner/>}
           <div className='row'>
           {!loading && articles.map((element)=>{
